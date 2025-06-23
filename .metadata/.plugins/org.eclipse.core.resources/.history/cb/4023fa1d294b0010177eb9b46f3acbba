@@ -1,0 +1,23 @@
+package scanner;
+
+import java.util.Scanner;
+
+// 6번 : 입력메소드 next(), nextLine()
+public class ScannerTest02 {
+
+	public static void main(String[] args) {
+		
+		// ctrl shift o
+		Scanner sc = new Scanner(System.in);
+		
+//		sc.next();
+//		sc.next(); // 입력값이 존재해야함.
+//		sc.next(); // 엔터를 아무리 눌러도 종료 X
+
+		sc.nextLine(); // 엔터만 눌러도 종료
+		sc.nextLine(); // 엔터가 들어오면 버퍼에서 소모한다.
+		sc.nextLine();
+		
+	}
+
+}

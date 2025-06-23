@@ -1,0 +1,15 @@
+package forTest;
+
+// 4번 : for 문 기초
+public class ForTest01 {
+	public static void main(String[] args) {
+		
+		//for(초기식; 조건식; 증감식){}
+		
+		for(;true;) {
+			System.out.println("행복하지않다...");
+		}
+		
+		
+	}
+}

@@ -1,0 +1,22 @@
+package variable;
+// 3번 : 변수명 선언시 주의사항
+public class Variable03 {
+
+	public static void main(String[] args) {
+		
+		// 1) 문자부터 시작한다.
+		// int 1num = 10; => 숫자부터 시작 시 에러발생.
+		int num1 = 10;
+		int nu1m = 10;
+		// int num1 = 100; => 같은 영역 내에서 같은 이름의 변수 선언 시 에러발생.
+		
+		// 2) 특수문자를 쓸 수 없다. (단, _ 와 $ 만 사용가능)
+		// int @#&%% = 100; => syntax error
+		int a$b_ = 100; // $ _ 둘다 가능
+		int _ab = 100; // _ 를 먼저 사용할수는 있지만, 사용하지 말 것.
+		
+		System.out.println(a$b_);
+		System.out.println(_ab);
+	}
+
+}

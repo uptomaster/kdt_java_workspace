@@ -1,0 +1,16 @@
+package print;
+// 8번 : println(), print() 출력메소드
+public class PrintTest01 {
+	public static void main(String[] args) {
+		//println() : 소괄호 안에 있는 값을 콘솔창에 출력하고 줄바꿈한다.
+		System.out.println("\"println()\"");
+		System.out.println("자동으로 줄바꿈된다.\n");
+		
+		//print() : 소괄호 안에 있는 값을 콘솔창에 출력하고 줄바꿈하지 않는다.
+		System.out.print("\'print()\'도 출력메소드이다.");
+		System.out.print("자동으로 줄바꿈되지 않는다.\n");
+		
+		System.out.println("java 수업중이다.");
+		System.out.println("지금은 오후 3시 11분입니다.");
+	}
+}

@@ -1,0 +1,8 @@
+package print;
+
+public class PrintTest01 {
+	public static void main(String[] args) {
+		//println() : 소괄호 안에 있는 값을 콘솔창에 출력하고 줄바꿈한다.
+		System.out.println("\"println()\"");
+	}
+}

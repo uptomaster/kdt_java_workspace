@@ -1,0 +1,18 @@
+package homework08;
+// 6번 : A ~ F까지 중 C만 제외하고 배열에 담아 출력
+public class ArrayTask06 {
+	public static void main(String[] args) {
+		
+		// A~F중 C를 제외한 알파벳 5개를 담을 문자형 타입의 배열 선언 (5칸)
+				char []arr = new char[5];
+				
+				// 반복문으로 A ~ F(C제외)를 각 인덱스에 맞게 넣어준다.
+				for(char i = 65; i <= 70; i++ ) {
+					if(i == 67) {
+						continue;
+					}
+					arr[i-65] = i; 
+				}
+		
+	}
+}

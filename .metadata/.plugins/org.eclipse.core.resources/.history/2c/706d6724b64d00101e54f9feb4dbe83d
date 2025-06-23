@@ -1,0 +1,10 @@
+package homework08;
+
+// 7. aBcDeFgHiJkLmNoPqRsTuVwXyZ 배열에 담고 출력
+public class ArrayTask07 {
+	public static void main(String[] args) {
+		for(char c = 65; c < ) { // ABC....XYZ 의 각 아스키 코드값은 65 66 ... 
+			
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package oper;
+// 14번 : 증감연산자
+public class OperTest02 {
+
+	public static void main(String[] args) {
+		int num = 1;
+		System.out.println("num의 값 : " + num);
+		System.out.println("num + 10의 값 : " + (num + 10));
+		
+	}
+
+}

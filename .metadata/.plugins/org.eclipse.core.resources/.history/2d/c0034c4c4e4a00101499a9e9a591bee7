@@ -1,0 +1,12 @@
+package review;
+
+public class Test01 { // 클래스의 중괄호 시작영역
+
+	public static void main(String[] args) { // main 메소드의 시작영역
+
+		System.out.println("4일차 수업");
+		System.out.println("2025년 06월 16일");
+		
+	} // main 메소드의 종료영역
+
+} // 클래스의 중괄호 종료영역

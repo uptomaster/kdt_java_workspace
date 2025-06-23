@@ -1,0 +1,22 @@
+package print;
+// 9번 : printf() 출력메소드
+public class PrintTest02 {
+
+	public static void main(String[] args) {
+		
+//		String name = "이남혁";
+//		int age = 25;
+//		
+//		System.out.println("제 이름은 이남혁이고, 나이는 25살 입니다.");
+//		System.out.println("제 이름은 " + name + "이고, " + "나이는 " + age + "살 입니다.");
+//		// System.out.println("제 이름은 %s이고, 나이는 %d살 입니다.", name, age); // error
+//		System.out.printf("제 이름은 %s이고, 나이는 %d살 입니다.", name, age); // 이 방식은 오직 printf() 메소드만 가능하다.
+		
+
+		
+		// 정수형
+		int num1 = 20;
+		System.out.printf("10진수 : %d", num1);
+	}
+
+}

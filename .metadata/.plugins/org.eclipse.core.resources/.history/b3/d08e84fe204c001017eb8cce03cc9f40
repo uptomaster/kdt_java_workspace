@@ -1,0 +1,10 @@
+package homework;
+// 4번 : 총 부른 곡 수에 따른 보너스 곡 지급
+public class SingTask03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

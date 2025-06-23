@@ -1,0 +1,22 @@
+package oper;
+// 8번 : 비트연산자를 이용한 암호화와 복호화
+public class BitEncryption {
+
+	public static void main(String[] args) {
+		// 전달한 데이터(원본데이터)를 정수형 변수로 하나 만들자.
+		int originalMsg = 42;
+		// key
+		int key = 99; // bit mask(암호화, 복호화에 사용) == 대칭키
+		System.out.println("원본 메세지 : " + originalMsg);
+		
+		// 원본메세지가 보이지 않게 바꿔보자
+		int encryptMsg = originalMsg ^ key; // xor 연산을 이용
+		System.out.println("암호화된 메세지 : " + encryptMsg);
+		
+		// 다시 원본메세지로 복호화
+		int decryptMsg = encryptMsg ^ key; // 암호화된 메세지와 키를 xor 연산
+		System.out.println("복호화된 메세지 : " + decryptMsg);
+		
+	}
+
+}

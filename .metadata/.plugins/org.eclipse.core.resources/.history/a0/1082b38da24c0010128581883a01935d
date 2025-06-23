@@ -1,0 +1,9 @@
+package review;
+// 복습
+public class Oper {
+
+	public static void main(String[] args) {
+		int num1 = -8;
+		System.out.println(num1 >> 1);
+	}
+}

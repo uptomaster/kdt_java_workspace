@@ -1,0 +1,24 @@
+package typeCasting;
+// 12번 : 강제 형변환
+public class TypeCasting02 {
+
+	public static void main(String[] args) {
+
+		// 형변환 연산자 (자료형)을 사용해서 강제로 형변환한다.
+		// 주로 큰 범위를 가진 자료형 -> 작은 자료형으로 변환시 데이터 손실이 발생하는데,
+		// 이 상황에서 강제 형변환을 사용한다.
+		
+		// 컴파일러는 명시적인 강제 변환이 없으면 오류를 발생시킨다.
+		
+		
+		// 1) 실수 -> 정수
+		double num1 = 3.141592;
+		int result1 = (int)num1;
+		System.out.println(result1);
+				
+		
+		
+		
+	}
+
+}

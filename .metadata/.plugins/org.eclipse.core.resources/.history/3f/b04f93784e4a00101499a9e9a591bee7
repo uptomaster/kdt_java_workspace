@@ -1,0 +1,13 @@
+package review;
+
+public class Test01 { // 클래스의 중괄호 시작영역
+	public static void main(String[] args) { // main 메소드의 시작영역
+
+		System.out.println("2025년 06월 16일"); // ln이 줄바꿈의 역할을 함.
+		System.out.println("4일차 수업"); // 4일차 수업이라는 값을 콘솔창에 출력하고 줄바꿈.
+		System.out.println("4일차 수업"); // 4일차 수업이라는 값을 콘솔창에 출력하고 줄바꿈.
+		
+	} // main 메소드의 종료영역
+	
+	
+} // 클래스의 중괄호 종료영역

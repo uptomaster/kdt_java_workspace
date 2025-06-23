@@ -1,0 +1,17 @@
+package print;
+// 7번 : 이스케이프 문자
+public class EscapeCharacter {
+
+	public static void main(String[] args) {
+		/*
+		 * 이스케이프문자는 문자열 안에서 \를 이용해 작성한다.
+		 * "\n"		 "\t"		 "\'" 		"\""		 "\\"
+		 * 줄바꿈		  탭			작은따옴표		큰따옴표		 백슬래시
+		 * */
+		System.out.println("안녕하세요.\n4일차 수업중입니다.\n");
+		System.out.println("지금은 이스케이프 문자 배우는 중입니다.");
+	
+	
+	}
+
+}

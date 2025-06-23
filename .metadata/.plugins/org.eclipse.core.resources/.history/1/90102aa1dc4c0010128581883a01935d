@@ -1,0 +1,15 @@
+package whileTest;
+// 11번 : do~while문
+public class DoWhileTest {
+
+	public static void main(String[] args) {
+		
+		int i = 10;
+		do {
+			System.out.println("i의 값 : " + i);
+		}while(i <= 3);
+		
+		
+	}
+
+}

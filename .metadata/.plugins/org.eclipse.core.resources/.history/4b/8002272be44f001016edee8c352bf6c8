@@ -1,0 +1,21 @@
+package array;
+
+import java.util.Arrays;
+
+// 8번 : Array.sort()
+public class ArraySortTest01 {
+
+	public static void main(String[] args) {
+		// 1차원 배열
+		int[] number = {1,2,3,4,5,6,7,8,9};
+		// 2차원 배열
+		int[][] number2 = {{1,2,3},{4,5,6},{7,8,9}};
+		
+		//출력
+		System.out.println(number);
+		System.out.println("1차원 배열 값 출력 : " + Arrays.toString(number));
+		System.out.println(number2);
+		System.out.println("2차원 배열 값 출력 : " + Arrays.toString(number2));
+	}
+
+}
