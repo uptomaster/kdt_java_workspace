@@ -1,4 +1,4 @@
-package twoArray;
+package array;
 
 //4번 : 2차원 배열과 for문, for-each문
 public class TwoArrayTest02 {
