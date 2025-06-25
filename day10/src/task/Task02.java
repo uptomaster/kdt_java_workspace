@@ -22,7 +22,7 @@ public class Task02 {
 		
 		cat.eat("고기");
 		tiger.birthday();
-		panda.sleep();
+		panda.sleep("동굴");
 		
 	}
 

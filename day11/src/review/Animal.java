@@ -1,6 +1,6 @@
-package task;
+package review;
 
-public class Animal {
+public class Animal { // public이 붙은 클래스가 대표클래스여야한다. 단 1개의 클래스만 붙임.
 
 	// 필드
 	String name = ""; // 동물이름
@@ -25,4 +25,32 @@ public class Animal {
 	}
 	
 	
+}
+
+class Task02 {
+
+	public static void main(String[] args) {
+
+		Animal cat = new Animal();
+		Animal tiger = new Animal();
+		Animal panda = new Animal();
+		
+		cat.name = "고양이";
+		tiger.name = "호랑이";
+		panda.name = "판다";
+		
+		cat.age = 5;
+		tiger.age = 17;
+		panda.age = 3;
+
+		cat.species = "고양잇과";
+		tiger.species = "고양잇과";
+		panda.species = "곰과";
+		
+		cat.eat("고기");
+		tiger.birthday();
+		panda.sleep("동굴");
+		
+	}
+
 }
