@@ -1,0 +1,52 @@
+DAY 03 *(JAVA 1일차 수업)
+
+- git 실습 -> git 복습(명령어) -> java란? -> java 설치(jdk17. eclipse)
+
+0. git 명령어
+	git clone url주소 폴더경로
+	- 프로젝트를 처음 시작할때 주로 클론을 받고 시작한다. 팀장이 먼저 만든것을 팀원이 클론을 받아 진행한다.
+	git init
+	- git이 작업영역을 인식하게 하기 위함.
+	git add . or git add 파일명
+	- 스테이징을 시키기 위함
+	git rm --cached 파일명
+	- 스테이징 down
+	git commit -m "커밋 메세지" 
+	- 커밋 메세지는 통일하여 작성할 것.
+	git branch
+	- 만들어진 브랜치 목록 확인
+	git branch -m 기존브랜치 새로운브랜치
+	- 브랜치명을 바꾸기 위한 명령어
+	git branch -D 삭제할브랜치
+	- 브랜치 삭제
+	git remote -v
+	- 원격 주소 확인
+	git remote add 이름 원격주소
+	- 원격 주소 연결
+	git remote set-url 원격주소이름 원격주소
+	- 원격 주소 변경
+	git remote remove 원격주소이름
+	-
+	git remote rename 기존원격주소이름 변경할원격주소이름
+	-
+	git switch 이동할브랜치
+	- 브랜치 이동
+	git merge 병합할브랜치
+	- 현재 브랜치에 병합
+	git checkout 체크섬앞7자리 or -
+	- 해당 커밋 시점으로 복구 or 가장 최근 커밋으로 복구
+	git push origin main
+	-
+	git pull 원격주소이름 브랜치명 --allow-unrelated-histories
+	- 받아지지 않을때, 강제로 원격에서 받아오기.
+	
+	echo "내용" > 파일명.txt
+	ls -al : 현재 폴더의 파일 목록 확인
+=====================================================================================
+
+1. java
+1) 컴퓨터
+
+
+
+
