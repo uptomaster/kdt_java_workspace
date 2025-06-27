@@ -1,7 +1,0 @@
-package homework;
-// 남은 금액으로 
-public class SingTask02 {
-	public static void main(String[] args) {
-		
-	}
-}
