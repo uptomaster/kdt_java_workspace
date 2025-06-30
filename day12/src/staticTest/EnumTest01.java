@@ -4,11 +4,10 @@ package staticTest;
 public class EnumTest01 {
 	// enum
 	enum Day {// 열거형 상수
-		MONDAY(false), TUESDAY(false), WENDSDAY(false), THURSDAY(false), FRIDAY(false), SATURDAY(true), SUNDAY(true);
-
+		MONDAY(false), TUESDAY(false), WENDSDAY(false), THURSDAY(false), 
+		FRIDAY(false), SATURDAY(true), SUNDAY(true);
 		// 필드
 		boolean week;
-
 		// 생성자
 		private Day(boolean week) {
 			this.week = week;
