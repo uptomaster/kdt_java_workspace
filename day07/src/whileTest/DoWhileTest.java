@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class DoWhileTest {
 
 	public static void main(String[] args) {
-		
+
 //		int i = 1;
 //		do {
 //			System.out.println("i의 값 : " + i);
@@ -23,7 +23,7 @@ public class DoWhileTest {
 			System.out.println("숫자를 입력하세요 : ");
 			num = sc.nextInt();
 			System.out.println("입력한 수는 " + num + "입니다.");
-		}while(num <= 100);
-		
-	}	
+		} while (num <= 100);
+
+	}
 }

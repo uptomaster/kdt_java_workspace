@@ -39,32 +39,31 @@ public class MethodTask02 {
 		String idd = "admin";
 		int pw = 1234;
 		mt.loginTry(idd, pw);
-		
+
 		// 7 - 1
 		System.out.println(mt.loginTry2("sdafas", "sdaf"));
 		System.out.println(mt.loginTry2("sdafas", "sdaf"));
 		System.out.println(mt.loginTry2("sdafas", "sdaf"));
 		System.out.println(mt.loginTry2("sdafas", "sdaf"));
-		
+
 		// 7 - 2
 		int tryCount = 0;
-		String id,  passwd, result; 
-		
-		while(true) {
+		String id, passwd, result;
+
+		while (true) {
 			System.out.println("아이디 입력 : ");
 			id = sc.nextLine();
 			System.out.println("비밀번호 입력 : ");
 			passwd = sc.nextLine();
-			
+
 			result = mt.loginTry3(id, passwd);
-			
-			if(result.equals("로그인 성공")) {
+
+			if (result.equals("로그인 성공")) {
 				System.out.println("로그인 성공");
 				break;
-			}
-			else {
+			} else {
 				tryCount++;
-				if(tryCount >= 3) {
+				if (tryCount >= 3) {
 					System.out.println("3회 이상 실패로 계정 잠금");
 					break;
 				}
@@ -229,47 +228,42 @@ public class MethodTask02 {
 				}
 			}
 		}
-		
-	}
-	
-	// 메소드 밖에서 클래스 안에 변수 선언
-			int tryCount = 0;
-			
-			String loginTry2(String inputId, String inputPw) {
-				final String ID = "admin";
-				final String PW = "1234";
-				
-				
-				if(tryCount >= 3) {
-					return "계정잠금";
-				}
-				if(ID.equals(inputId) && PW.equals(inputPw)) {
-					tryCount = 0;
-					return "로그인성공";
-				}
-				else {
-					tryCount++;
-					if(tryCount > 3) {
-						return "계정잠금";
-					}
-					return "로그인실패";
-				}
-				
-			}
 
-			// 7번 문제 변형 (입력과 검증)
-			String loginTry3(String inputId, String inputPw) {
-				final String ID = "admin";
-				final String PW = "1234";
-				
-				if(inputId == ID && inputPw == PW) {
-					return "로그인성공";
-				}
-				else {
-					return "로그인실패";
-				}
+	}
+
+	// 메소드 밖에서 클래스 안에 변수 선언
+	int tryCount = 0;
+
+	String loginTry2(String inputId, String inputPw) {
+		final String ID = "admin";
+		final String PW = "1234";
+
+		if (tryCount >= 3) {
+			return "계정잠금";
+		}
+		if (ID.equals(inputId) && PW.equals(inputPw)) {
+			tryCount = 0;
+			return "로그인성공";
+		} else {
+			tryCount++;
+			if (tryCount > 3) {
+				return "계정잠금";
 			}
-			
-			
-			
+			return "로그인실패";
+		}
+
+	}
+
+	// 7번 문제 변형 (입력과 검증)
+	String loginTry3(String inputId, String inputPw) {
+		final String ID = "admin";
+		final String PW = "1234";
+
+		if (inputId == ID && inputPw == PW) {
+			return "로그인성공";
+		} else {
+			return "로그인실패";
+		}
+	}
+
 } // class 종료
