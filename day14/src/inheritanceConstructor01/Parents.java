@@ -6,7 +6,8 @@ public class Parents {
 	int number;
 	// 기본생성자
 	public Parents() {
-		super(); // 부모클래스의 생성자 => 모든 클래스의 최상위 부모 클래스는 Object 클래스임.
+		super(); 
+		// 부모클래스의 생성자 => 모든 클래스의 최상위 부모 클래스는 Object 클래스임.
 		System.out.println("Parents 생성자 호출");
 	}
 	
