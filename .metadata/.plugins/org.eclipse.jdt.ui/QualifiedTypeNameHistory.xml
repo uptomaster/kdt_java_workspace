@@ -10,4 +10,9 @@
     <fullyQualifiedTypeName name="classBasic.StudentMain"/>
     <fullyQualifiedTypeName name="inheritance.Tv2"/>
     <fullyQualifiedTypeName name="accessModifier01.Parents"/>
+    <fullyQualifiedTypeName name="interfaceTest05.Calculator"/>
+    <fullyQualifiedTypeName name="markerInter.Omnivore"/>
+    <fullyQualifiedTypeName name="markerInter.Herbivore"/>
+    <fullyQualifiedTypeName name="markerInter.Carnivore"/>
+    <fullyQualifiedTypeName name="innerTest.Outer.Inner"/>
 </qualifiedTypeNameHistroy>

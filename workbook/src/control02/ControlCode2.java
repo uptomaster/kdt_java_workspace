@@ -15,7 +15,7 @@ public class ControlCode2 {
 		int count = 0; // 반복 횟수를 담을 변수
 		int chance = 6;
 		
-		while (chance--) {
+		while () {
 			for (int i = 0; i < 6; i++) {
 				if (dice_A[i] == dice_B[i]) {
 					stop = i + 1;
