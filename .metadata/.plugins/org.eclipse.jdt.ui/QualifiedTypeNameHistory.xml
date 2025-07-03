@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="classBasic.StudentMain"/>
     <fullyQualifiedTypeName name="inheritance.Tv2"/>
     <fullyQualifiedTypeName name="accessModifier01.Parents"/>
@@ -15,4 +14,16 @@
     <fullyQualifiedTypeName name="markerInter.Herbivore"/>
     <fullyQualifiedTypeName name="markerInter.Carnivore"/>
     <fullyQualifiedTypeName name="innerTest.Outer.Inner"/>
+    <fullyQualifiedTypeName name="lambdaTest02.Func1"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="lambdaTest02.Func2"/>
+    <fullyQualifiedTypeName name="lambdaTest02.CombInter"/>
+    <fullyQualifiedTypeName name="exceptionQuest.ExceptionTest02"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="exceptionQuest.ExceptionTest03"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="ex03_이남혁.StringInter"/>
 </qualifiedTypeNameHistroy>
