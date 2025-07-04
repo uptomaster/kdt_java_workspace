@@ -26,4 +26,10 @@
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="ex03_이남혁.StringInter"/>
+    <fullyQualifiedTypeName name="lambdaTest02.CombInter1"/>
+    <fullyQualifiedTypeName name="apiTest2.Calc"/>
+    <fullyQualifiedTypeName name="listTest.MyClassType"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
