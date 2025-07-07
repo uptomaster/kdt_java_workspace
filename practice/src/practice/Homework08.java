@@ -29,7 +29,7 @@ public class Homework08 {
 		int [][]arr = new int[2][3];
 		for(int i = 0; i < 2; i++) {
 			for(int j = 0; j < 3; j++) {
-				arr[i][j] = (i * 3) + j + 1; [0][0] -> [0][1] -> 
+//				arr[i][j] = (i * 3) + j + 1; [0][0] -> [0][1] -> 
 			}
 		}
 	}

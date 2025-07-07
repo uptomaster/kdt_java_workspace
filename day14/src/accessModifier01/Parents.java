@@ -20,12 +20,13 @@ public class Parents {
 		System.out.println(privateVar);
 
 	}
+
 	// 메인 메소드
 	public static void main(String[] args) {
 		Parents p = new Parents();
 		p.printAccess();
 	}
-	
+
 }
 
 //class SamePackage{
@@ -34,6 +35,5 @@ public class Parents {
 //		System.out.println(p.defaultVar);
 //		System.out.println(p.protectedVar);
 //		System.out.println(p.defaultVar);
-////		System.out.println(p.privateVar); // 같은 패키지, 다른 클래스에선 private 접근 제한자의 필드 접근 불가.
+//		System.out.println(p.privateVar); // 같은 패키지, 다른 클래스에선 private 접근 제한자의 필드 접근 불가.
 //	}
-}

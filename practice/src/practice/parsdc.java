@@ -1,7 +1,7 @@
-package homework08;
+package practice;
 
 // 7. aBcDeFgHiJkLmNoPqRsTuVwXyZ 배열에 담고 출력
-public class ArrayTask07 {
+public class parsdc {
 	public static void main(String[] args) {
 		
 		// 문자(아스키코드로 변환된 값)들을 담을 정수형 배열 선언

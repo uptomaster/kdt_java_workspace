@@ -39,9 +39,9 @@ public class Task01 {
 			avg[i] = (math[i] + eng[i] + kor[i]) / 3;
 		}
 
-		System.out.println(avg[]);
+//		System.out.println(avg[]);
 		
-		getGrade(name[], avg[]);
+//		getGrade(name[], avg[]);
 //		for(int i = 0; i < 3; i++) {
 //			getAvg(math[i] + eng[i] + kor[i]);
 //		}

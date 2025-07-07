@@ -13,6 +13,13 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\web_0900_lnh\java\day18"/>
+			<item value="D:\web_0900_lnh\java\day17"/>
+			<item value="D:\web_0900_lnh\java\day16"/>
+			<item value="D:\web_0900_lnh\java\day14"/>
+			<item value="D:\web_0900_lnh\java\day15"/>
+			<item value="D:\web_0900_lnh\java\day19"/>
+			<item value="D:\web_0900_lnh\java"/>
 			<item value="D:\web_0900_lnh\java\homework\homework16_lnh"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
