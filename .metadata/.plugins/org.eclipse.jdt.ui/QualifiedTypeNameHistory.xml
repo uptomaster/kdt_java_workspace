@@ -29,7 +29,9 @@
     <fullyQualifiedTypeName name="lambdaTest02.CombInter1"/>
     <fullyQualifiedTypeName name="apiTest2.Calc"/>
     <fullyQualifiedTypeName name="listTest.MyClassType"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>
