@@ -1,6 +1,5 @@
 package manage;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class User {
@@ -23,9 +22,8 @@ public class User {
 	}
 
 	// 사용자 번호 설정
-	public void setUser_id(Scanner sc) {
-		this.user_id = sc.nextInt();
-		sc.nextLine(); // 버퍼비우기
+	public void setUser_id(int id) {
+		this.user_id = id;
 	}
 
 	// 사용자 이름 반환
@@ -34,8 +32,8 @@ public class User {
 	}
 
 	// 사용자 이름 설정
-	public void setUser_name(Scanner sc) {
-		this.user_name = sc.nextLine();
+	public void setUser_name(String name) {
+		this.user_name = name;
 	}
 
 	// 이메일 반환
@@ -44,8 +42,35 @@ public class User {
 	}
 
 	// 이메일 설정
-	public void setUser_Email(Scanner sc) {
-		this.user_Email = sc.nextLine();
+	public void setUser_Email(String email) {
+		this.user_Email = email;
+	}
+
+	@Override // toString 오버라이딩
+	public String toString() {
+		return "==================================================\n"
+				+ "[User_ID : " + getUser_id() + ", User_Name : " + getUser_name() + ", User_Email : " + getUser_Email() + "]\n"
+				+ "==================================================\n";
+	}
+
+	@Override
+	public int hashCode() {
+		return this.user_id;
+
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof User) {
+			if (this.hashCode() == obj.hashCode()) {
+				System.out.println("동일한 사용자입니다.");
+				return true;
+			} else {
+				System.out.println("다른 사용자입니다.");
+				return false;
+			}
+		} else
+			return false;
 	}
 
 }
